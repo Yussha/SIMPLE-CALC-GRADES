@@ -1,0 +1,80 @@
+
+@media only screen and (max-width: 600px){
+
+    .grades-greet-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: space-between;
+       
+    } 
+
+    .container-grades{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .container-grades h1{
+        font-size: 20px;
+        padding: auto;
+        width: 90%;
+        margin: auto;
+        text-align: center;   
+    }
+
+    #input-button-container input{
+        padding: 5px 15px;
+    }
+
+     #input-button-container{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .greet-container{
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        grid-template-rows: 100px;
+        row-gap: 20px;
+        width: 100%;
+        padding: 50px;
+        height: auto;
+        
+    }
+
+    .greet-container img{
+        width: 150px;
+        margin-top: 0;   
+    } 
+
+    .greet-container p{
+        width: 200px;   
+    } 
+
+}
+
+
+
+@media only screen and (max-width: 820px){
+
+    .grades-greet-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    .container-grades{
+        width: 100%; 
+        margin-bottom: 20px;   
+    }
+}
